@@ -1,11 +1,11 @@
 .idea
 .vscode
-build
 node_modules
 src
+.eslintignore
 .eslintrc
-.prettierrc
 .npmignore
-babel.config.json
+.prettierrc
 yarn.lock
 package-lock.json
+tsconfig.json

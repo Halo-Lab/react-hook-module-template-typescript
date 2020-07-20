@@ -1,6 +1,6 @@
 # NPM module template
 
-Boilerplate to create an npm module development environment with example code (custom hook that track window dimensions).
+Boilerplate to create an npm module development environment with example code (custom hook that track window dimensions). 
 
 > Our setup will consist of:
 > 1. NPM module project

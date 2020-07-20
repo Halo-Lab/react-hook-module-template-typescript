@@ -1,11 +1,6 @@
 .idea
 .vscode
-build
 node_modules
-.DS_Store
+lib
 yarn.lock
 package-lock.json
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*

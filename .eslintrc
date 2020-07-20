@@ -1,21 +1,17 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "parser": "babel-eslint",
-  "rules": {
-    "strict": 1,
-    "no-console": 1
-  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+  "rules": {
+    "no-console": 1
   }
 }
