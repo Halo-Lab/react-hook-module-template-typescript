@@ -1,14 +1,14 @@
 {
-  "name": "my-new-module",
-  "version": "1.0.0",
+  "name": "test-resize-test",
+  "version": "1.0.1",
   "description": "NPM module template description",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --watch",
+    "build": "tsc",
     "format": "prettier --write src/*",
     "lint": "eslint src/*",
     "bump": "npm version patch",
-    "develop": "npm run lint && npm run format",
+    "develop": "tsc --watch",
     "deploy": "npm run bump && npm publish"
   },
   "keywords": [],
