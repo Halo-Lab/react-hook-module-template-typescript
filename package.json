@@ -7,9 +7,8 @@
     "build": "tsc",
     "format": "prettier --write src/*",
     "lint": "eslint src/*",
-    "bump": "npm version patch",
     "develop": "tsc --watch",
-    "deploy": "npm run bump && npm publish"
+    "deploy": "npm publish"
   },
   "keywords": [],
   "author": "Halo Lab",
